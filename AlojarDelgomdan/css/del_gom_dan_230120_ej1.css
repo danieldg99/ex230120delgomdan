@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+.delgomdanBoton2, .delgomdanBoton1 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delgomdanHeader {
+  border: 2px solid black;
+  padding: 1em;
+}
+.delgomdanTitulo {
+  margin-top: 0;
+  text-align: center;
+}
+.delgomdanImg {
+  display: block;
+  width: 30%;
+  margin: 1em auto;
+}
+.delgomdanCentrado {
+  text-align: center;
+}
+.delgomdanSection {
+  display: flex;
+}
+.delgomdanContenedor1ConBordeVerde {
+  width: 80%;
+  border: 3px solid green;
+  padding: 3em;
+}
+.delgomdanContenedor1ConBordeVerde img {
+  width: 100%;
+}
+.delgomdanContenedor2ConBordeAzul {
+  width: 20%;
+  border: 3px solid royalblue;
+  padding: 1em;
+}
+.delgomdanBoton {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 70px;
+}
+.delgomdanBoton1 {
+  background-image: url("../img/Recurso5.png");
+}
+.delgomdanBoton2 {
+  background-image: url("../img/Recurso6.png");
+}
+.delgomdanFooter {
+  border: 2px solid orange;
+  padding: 1em;
+  display: flex;
+}
+.delgomdanFooter div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.delgomdanFooter div audio {
+  max-width: 100%;
+  margin-bottom: 0.5em;
+}
+.delgomdanFooter div:first-child,
+.delgomdanFooter div:last-child {
+  width: 25%;
+}
+.delgomdanFooter div:nth-child(2) {
+  width: 50%;
+}
+
+/*# sourceMappingURL=del_gom_dan_230120_ej1.css.map */
