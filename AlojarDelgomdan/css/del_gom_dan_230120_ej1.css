@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.delgomdanBoton2, .delgomdanBoton1 {
+.delgomdanBoton3, .delgomdanBoton2, .delgomdanBoton1 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,6 +51,9 @@
 }
 .delgomdanBoton2 {
   background-image: url("../img/Recurso6.png");
+}
+.delgomdanBoton3 {
+  background-image: url("../img/Recurso9.gif");
 }
 .delgomdanFooter {
   border: 2px solid orange;

@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+%delgomdanFlexCentrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delgomdan {
+    &ImgF {
+        display: block;
+        width: 60%;
+        margin: 0 auto 1em;
+        object-fit: cover;
+    }
+    &Section2 {
+        margin-top: 2em;
+        display: flex;
+        & div {
+            width: 50%;
+            & button {
+                padding: .5em;
+                border-radius: 15px;
+                border: 2px solid black;
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgba(0, 0, 0, .3);
+                }
+            }
+            &:first-child {
+                @extend %delgomdanFlexCentrado;
+            }
+            &:last-child {
+                padding: 20px;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                gap: 10%;
+            }
+        }
+    }
+    &Footer2 {
+        margin-top: 2em;
+        display: flex;
+        & div {
+            @extend %delgomdanFlexCentrado;
+            &:first-child {
+                width: 60%;
+                padding: 5px;
+            }
+            &:nth-child(2) {
+                width: 10%;
+            }
+            &:last-child {
+                width: 30%;
+            }
+        }
+    }
+    &Canvas {
+        border: 2px solid black;
+        max-width: 100%;
+        border-radius: 15px;
+    }
+}

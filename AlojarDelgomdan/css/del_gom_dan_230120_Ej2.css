@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.delgomdanFooter2 div, .delgomdanSection2 div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delgomdanImgF {
+  display: block;
+  width: 60%;
+  margin: 0 auto 1em;
+  object-fit: cover;
+}
+.delgomdanSection2 {
+  margin-top: 2em;
+  display: flex;
+}
+.delgomdanSection2 div {
+  width: 50%;
+}
+.delgomdanSection2 div button {
+  padding: 0.5em;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+.delgomdanSection2 div button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.delgomdanSection2 div:last-child {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10%;
+}
+.delgomdanFooter2 {
+  margin-top: 2em;
+  display: flex;
+}
+.delgomdanFooter2 div:first-child {
+  width: 60%;
+  padding: 5px;
+}
+.delgomdanFooter2 div:nth-child(2) {
+  width: 10%;
+}
+.delgomdanFooter2 div:last-child {
+  width: 30%;
+}
+.delgomdanCanvas {
+  border: 2px solid black;
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=del_gom_dan_230120_ej2.css.map */
