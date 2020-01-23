@@ -40,6 +40,19 @@
             }
         }
     }
+    &Section3 {
+        width: 40%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        position: absolute;
+        top: 90px;
+        left: 1em;
+        & div:first-child {
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+    }
     &Footer2 {
         margin-top: 2em;
         display: flex;

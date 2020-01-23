@@ -65,6 +65,10 @@
             background-image: url('../img/Recurso9.gif');
             @extend %delgomdanFondoImg;
         }
+        &4 {
+            background-image: url('../img/Recurso11.jpg');
+            @extend %delgomdanFondoImg;
+        }
     }
     &Footer {
         @include delgomdanBorde(2px,
